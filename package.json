@@ -1,0 +1,18 @@
+{
+  "name": "spider-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build -t marshalw/spider-service .",
+    "push": "docker push marshalw/spider-service"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "esm": "^3.2.25",
+    "sqlite": "^3.0.6"
+  }
+}
