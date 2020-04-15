@@ -106,3 +106,4 @@ dist
 # customer add
 cache
 docker.txt
+.DS_Store
